@@ -1,0 +1,42 @@
+<h1 mat-dialog-title>Add Worker Form</h1>
+<div mat-dialog-content>
+    <form [formGroup]="workerForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Worker Name</mat-label>
+        <input formControlName="name" matInput placeholder="Name">
+    </mat-form-field> 
+    <mat-form-field appearance="outline" style="margin-top: 10px;">
+        <mat-label>Phone No </mat-label>
+        <input formControlName="phone" matInput type="number" placeholder="Phone No">
+    </mat-form-field> 
+    <mat-form-field appearance="outline">
+        <mat-label>Category </mat-label>
+        <mat-select formControlName="category" placeholder="Category" >
+        <mat-option  *ngFor="let test of testModel" [value]="test.category">{{test.category}}</mat-option>
+         
+        </mat-select>
+    </mat-form-field>
+    <label for=""><h1>Location &nbsp;</h1></label>
+    <mat-radio-group formControlName="location" class="example-radio-group">
+        <mat-radio-button class="example-radio-group" *ngFor="let location of location" [value]="location" name="wtype">
+            {{location}}
+            
+        </mat-radio-button>
+    </mat-radio-group>
+    <mat-form-field appearance="outline">
+        <mat-label>Date</mat-label>
+        <input formControlName="date" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+   
+
+  
+    
+  </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button mat-raised-button color="primary" style="margin-left: 8px;" (click)="addWorker()">{{actionBtn}}</button>
+
+</div>

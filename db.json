@@ -1,0 +1,660 @@
+{
+  "workerList": [
+    {
+      "name": "aman",
+      "phone": 9589855077,
+      "category": "water",
+      "location": "Internal",
+      "date": "2022-08-29T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "id": "12",
+      "name": "Preetham",
+      "phone": "7773082013",
+      "category": "Cleaner",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "13",
+      "name": "Udaychand",
+      "phone": "8889936781",
+      "category": "Security Guard",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "14",
+      "name": "Vishwajeet",
+      "phone": "9584963374",
+      "category": "Plumber",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "16",
+      "name": "Deepak",
+      "phone": "8989875535",
+      "category": "Plumber",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "17",
+      "name": "Pappu",
+      "phone": "8223859808",
+      "category": "Electrician",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "18",
+      "name": "Prakash",
+      "phone": "9977890452",
+      "category": "Electrician",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "19",
+      "name": "Sandeep",
+      "phone": "9981297690",
+      "category": "Electrician",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "20",
+      "name": "Malkhan Singh",
+      "phone": "9926115773",
+      "category": "Civil Caretaker",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "21",
+      "name": "Soniji (Shri Tatvprakash Soni) ",
+      "phone": "9713964515",
+      "category": "Civil Caretaker ",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "22",
+      "name": "Manohar ",
+      "phone": "9399147303",
+      "category": "Swimming Pool",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "23",
+      "name": "Mehmoon Iron Gate Fabricator",
+      "phone": "9301141140",
+      "category": "Fabricator",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "24",
+      "name": "Sarvar - Sanjeev Nagar ",
+      "phone": "7974360462",
+      "category": "Iron Fabricator",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "25",
+      "name": "Kailash ",
+      "phone": "8982099510",
+      "category": "Carpanter ",
+      "subcategory": "Wooden Work",
+      "location": "External"
+    },
+    {
+      "id": "26",
+      "name": "Paliwal",
+      "phone": "9993946405",
+      "category": "Mason",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "28",
+      "name": "Chacha Painter",
+      "phone": "8982636251",
+      "category": "Painter",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "29",
+      "name": "Glass Work",
+      "phone": "8819922964",
+      "category": "Glass Work",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "30",
+      "name": "Rani",
+      "phone": "9907118030",
+      "category": "Domestic Beautician",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "31",
+      "name": "Andrew Abrahim",
+      "phone": "8889996766",
+      "category": "Music Teacher",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "32",
+      "name": "Prashant Daniel",
+      "phone": "8982758288",
+      "category": "Music Teacher",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "33",
+      "name": "Pradeep Rai",
+      "phone": "8770339833",
+      "category": "Plumber",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "34",
+      "name": "Munne Snake Catcher",
+      "phone": "9425028607",
+      "category": "Snake Catcher",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "35",
+      "name": "Dr. Atul Samaiya - Cancer Surgeon",
+      "phone": "9993756134",
+      "category": "Emergency - Medical",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "36",
+      "name": "Dr. Sandesh Sharma - Gastro Surgeon ",
+      "phone": "9424481944",
+      "category": "Emergency - Medical ",
+      "subcategory": "Labroscopy, Liver, Gall Bladder and Gastroenternology",
+      "location": "Internal"
+    },
+    {
+      "id": "40",
+      "name": "Police",
+      "phone": "100",
+      "category": "Emergency - Others",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "41",
+      "name": "Ambulance ",
+      "phone": "108",
+      "category": "Emergency - Others ",
+      "subcategory": "Medical",
+      "location": "External"
+    },
+    {
+      "id": "42",
+      "name": "MPEB Helpline",
+      "phone": "1912",
+      "category": "Emergency - Others",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "43",
+      "name": "Madhya Pradesh - CM Helpline",
+      "phone": "181",
+      "category": "Emergency - Others",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "44",
+      "name": "Dr Ajeet Sewkani - Gastro Surgeon",
+      "phone": "9893388835",
+      "category": "Emergency - Medical",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "45",
+      "name": "Dr. Anand Yadav - Heart, Cardio Care",
+      "phone": "9329432350",
+      "category": "Emergency - Medical ",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "46",
+      "name": "Khilawan Vishwakarma",
+      "phone": "9399042105",
+      "category": "Carpanter",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "47",
+      "name": "Paliwal",
+      "phone": "9993946405",
+      "category": "Civil Caretaker",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "48",
+      "name": "Dr Ashish Jain - Asthama, TB, Pulmonay, Allergy, C",
+      "phone": "9424395291",
+      "category": "Emergency - Medical ",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "49",
+      "name": "Saleem Bhai",
+      "phone": "9425600658",
+      "category": "Snake Catcher",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "50",
+      "name": "Aslam Khan",
+      "phone": "9826032234",
+      "category": "Snake Catcher",
+      "subcategory": "NULL",
+      "location": "External"
+    },
+    {
+      "id": "51",
+      "name": "Dr M K Choubey - General Surgeon",
+      "phone": "9425171363",
+      "category": "Emergency - Medical",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "52",
+      "name": "Dr Hemlata Yadav - Eye Surgeon Specialist",
+      "phone": "9406523810",
+      "category": "Emergency - Medical",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "53",
+      "name": "Puneet Sharma",
+      "phone": "9425016802",
+      "category": "Engineers",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "54",
+      "name": "Dipty Sharma",
+      "phone": "8458804786",
+      "category": "Engineers",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "55",
+      "name": "Rahul Nema",
+      "phone": "9406569798",
+      "category": "Engineers",
+      "subcategory": "NULL",
+      "location": "Internal"
+    },
+    {
+      "id": "57",
+      "name": "Ingle Pest Control",
+      "phone": "9039735992",
+      "category": "Termite Treatment",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "58",
+      "name": "Dr R P Singh",
+      "phone": "7771862205",
+      "category": "Emergency - Medical",
+      "subcategory": "Orthopedic and Joint Replacement Surgeon",
+      "location": "Internal"
+    },
+    {
+      "id": "59",
+      "name": "Dr Amit Kocheta",
+      "phone": "9009255239",
+      "category": "Emergency - Medical ",
+      "subcategory": "Anesthesia, Cardiac Anesthesia, Critical Care",
+      "location": "Internal"
+    },
+    {
+      "id": "60",
+      "name": "Aroraji",
+      "phone": "9425017347",
+      "category": "DD Office",
+      "subcategory": "",
+      "location": "Internal"
+    },
+    {
+      "id": "61",
+      "name": "Archana",
+      "phone": "8319123795",
+      "category": "DD Office",
+      "subcategory": "Electricity Bills and Related Concerns",
+      "location": "Internal"
+    },
+    {
+      "id": "62",
+      "name": "Rajoo",
+      "phone": "9300773288",
+      "category": "DD Office",
+      "subcategory": "General Administration, Registration and ",
+      "location": "Internal"
+    },
+    {
+      "id": "63",
+      "name": "Mr Vijay Singh ",
+      "phone": "9826380243",
+      "category": "DD Office",
+      "subcategory": "Builder, Main Partner",
+      "location": "Internal"
+    },
+    {
+      "id": "64",
+      "name": "Dr Nitin Garg",
+      "phone": "9303235020",
+      "category": "Emergency - Medical",
+      "subcategory": "Genral Surgeon",
+      "location": "Internal"
+    },
+    {
+      "id": "65",
+      "name": "Corona Virus MP State Helpline no.",
+      "phone": "07552527177",
+      "category": "Emergency - Medical",
+      "subcategory": "Corona Virus Emergency Helpline",
+      "location": "External"
+    },
+    {
+      "id": "66",
+      "name": "Dr K P Tripathi",
+      "phone": "9415795809",
+      "category": "Corona - COVID19",
+      "subcategory": "DSO",
+      "location": "External"
+    },
+    {
+      "id": "67",
+      "name": "Kasturba Hospital",
+      "phone": "+912223037700",
+      "category": "Corona - COVID19",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "68",
+      "name": "Corona Complaint Toll Free",
+      "phone": "18001805145",
+      "category": "Corona - COVID19",
+      "subcategory": "Toll Free Number for Conrona Related complaints and information",
+      "location": "External"
+    },
+    {
+      "id": "69",
+      "name": "Sahid Bhai Nagar Nigam Karondh",
+      "phone": "9826291176",
+      "category": "Snake Catcher",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "70",
+      "name": "Diwan Aahuja Bairagarh",
+      "phone": "9827376559",
+      "category": "Snake Catcher",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "71",
+      "name": "Nikhil Rawat Minal",
+      "phone": "9424724258",
+      "category": "Snake Catcher",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "72",
+      "name": "Khaleel Niyan Kolar",
+      "phone": "9203897732",
+      "category": "Snake Catcher",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "73",
+      "name": "Dr. Jafar Khan Ashoka Garden",
+      "phone": "9893661295",
+      "category": "Snake Catcher",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "74",
+      "name": "Lakhan Lal Malviye",
+      "phone": "9303134142",
+      "category": "Snake Catcher",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "75",
+      "name": "Raja Ram Bhadbhada",
+      "phone": "7587608535",
+      "category": "Snake Catcher",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "76",
+      "name": "Manoj Plumber",
+      "phone": "7987290480",
+      "category": "Plumber",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "77",
+      "name": "Ravi Maourya",
+      "phone": "9893200995",
+      "category": "Water Tanker",
+      "subcategory": "",
+      "location": "External"
+    },
+    {
+      "id": "78",
+      "name": "Aman",
+      "phone": "Software",
+      "category": "Developer",
+      "subcategory": "NULL",
+      "location": "Bhopal"
+    },
+    {
+      "id": "79",
+      "name": "himanshu",
+      "phone": "shotware",
+      "category": "Developer",
+      "subcategory": "NULL",
+      "location": "vidisha"
+    },
+    {
+      "name": "ashish",
+      "phone": 9589855077,
+      "category": "plumber",
+      "location": "External",
+      "date": "2022-08-27T18:30:00.000Z",
+      "id": "7zrvu-i"
+    },
+    {
+      "name": "utkarsh",
+      "phone": 9857632345,
+      "category": "Cleaner",
+      "location": "Internal",
+      "date": "2022-08-29T18:30:00.000Z",
+      "id": "pYroGqt"
+    }
+  ],
+  "categoryList": [
+    {
+      "id": 1,
+      "category": "Electrician",
+      "date": "2022-08-27T18:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "category": "Electrician",
+      "date": "2022-08-27T18:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "category": "Electrician"
+    },
+    {
+      "id": "4",
+      "category": "Plumber"
+    },
+    {
+      "id": "5",
+      "category": "Carpanter"
+    },
+    {
+      "id": "13",
+      "category": "Security Guard"
+    },
+    {
+      "id": "14",
+      "category": "Cleaner"
+    },
+    {
+      "id": "15",
+      "category": "Gardner"
+    },
+    {
+      "id": "16",
+      "category": "AC Repair"
+    },
+    {
+      "id": "17",
+      "category": "Civil Caretaker"
+    },
+    {
+      "id": "18",
+      "category": "Swimming Pool"
+    },
+    {
+      "id": "19",
+      "category": "Painter"
+    },
+    {
+      "id": "20",
+      "category": "Iron Fabricator"
+    },
+    {
+      "id": "21",
+      "category": "Mason"
+    },
+    {
+      "id": "22",
+      "category": "Glass Work"
+    },
+    {
+      "id": "23",
+      "category": "House Nurse"
+    },
+    {
+      "id": "24",
+      "category": "Termite Treatment"
+    },
+    {
+      "id": "25",
+      "category": "Domestic Beautician"
+    },
+    {
+      "id": "26",
+      "category": "Music Teacher"
+    },
+    {
+      "id": "27",
+      "category": "Snake Catcher"
+    },
+    {
+      "id": "28",
+      "category": "Emergency - Medical"
+    },
+    {
+      "id": "29",
+      "category": "Emergency - Others"
+    },
+    {
+      "id": "30",
+      "category": "Dance Teacher"
+    },
+    {
+      "id": "31",
+      "category": "Engineers"
+    },
+    {
+      "id": "32",
+      "category": "Lawyers"
+    },
+    {
+      "id": "33",
+      "category": "Chartered Accountants - CA"
+    },
+    {
+      "id": "34",
+      "category": "Pharmacists"
+    },
+    {
+      "id": "35",
+      "category": "DD Office"
+    },
+    {
+      "id": "36",
+      "category": "Corona - COVID19"
+    },
+    {
+      "id": "37",
+      "category": "Water Tanker"
+    },
+    {
+      "id": "38",
+      "category": "abcd"
+    },
+    {
+      "category": "backend support",
+      "date": "2022-08-29T18:30:00.000Z",
+      "id": "7qQrLkm"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

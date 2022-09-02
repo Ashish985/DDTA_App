@@ -1,0 +1,31 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+ 
+  .container{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .mat-header-cell {
+ 
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button {
+  margin-bottom: 8px;
+  height: 44px;
+  width: 236px;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  background: transparent;
+}

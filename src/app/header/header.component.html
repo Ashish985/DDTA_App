@@ -1,0 +1,99 @@
+<header class="header-container">
+  <div class="header-container__left">
+    <button
+      nz-button
+      nzType="text"
+      size="large"
+      (click)="toggleMenu()"
+      nzShape="circle"
+      nzSize="large"
+    >
+      <i
+        nz-icon
+        nzType="menu"
+        [ngStyle]="{ 'font-size': '1.25rem', 'padding-top': '6px' }"
+      ></i>
+    </button>
+  </div>
+  <div class="header-container__middle">
+    <h3 routerLink="/">DDTA APP</h3>
+  </div>
+  <div class="header-container__right">
+     
+  </div>
+</header>
+
+<!-- <div class="nav-container" *ngIf="!isMobile">
+  <nav>
+    <ul>
+      <li routerLink="/">Home</li>
+      <li routerLink="/login">Login</li>
+      <li routerLink="/register">Register</li>
+      <li routerLink="/profile">Profile</li>
+      <li routerLink="/cart">Cart</li>
+      <li routerLink="/product/1">Product</li>
+      <li routerLink="/checkout">Checkout</li>
+      <li routerLink="/order-history">Order History</li>
+    </ul>
+  </nav>
+</div> -->
+
+<div [className]="isMenuOpen ? 'side-menu show' : 'side-menu'" *ngIf="isLoggedIn">
+  <i nz-icon nzType="close" nzTheme="outline" (click)="toggleMenu()"></i>
+  <div class="side-menu__content">
+    <h2 routerLink="/" (click)="toggleMenu()">DDTA</h2>
+    <nav>
+      <ul>
+        <!-- <li routerLink="/dashboard" (click)="toggleMenu()">Dashboard</li> -->
+        <li routerLink="/category" (click)="toggleMenu()">Category</li>
+        <li routerLink="/workers" (click)="toggleMenu()">Workers</li>
+        <li routerLink="/profile" (click)="toggleMenu()">Profile</li>
+       
+      </ul>
+    </nav>
+    <div class="🍑">
+      <button
+        nz-button
+        routerLink="/login"
+        (click)="toggleMenu()"
+        *ngIf="!isLoggedIn"
+      >
+        Sign in
+      </button>
+      <button
+        nz-button
+        routerLink="/register"
+        (click)="toggleMenu()"
+        *ngIf="!isLoggedIn"
+      >
+        Sign up
+      </button>
+      <button nz-button (click)="logout() && toggleMenu()" *ngIf="isLoggedIn">
+        Sign out
+      </button>
+    </div>
+  </div>
+</div>
+
+<div
+  [className]="isMenuOpen ? 'darken-background enable' : 'darken-background'"
+  (click)="toggleMenu()"
+></div>
+
+
+<div [className]="isMenuOpen ? 'side-menu show' : 'side-menu'" *ngIf="!isLoggedIn">
+  <i nz-icon nzType="close" nzTheme="outline" (click)="toggleMenu()"></i>
+  <div class="side-menu__content">
+    <h2 routerLink="/login" (click)="toggleMenu()">DDTA</h2>
+    <nav>
+      <ul>
+        <li routerLink="/login" (click)="toggleMenu()">Home</li>
+        <li routerLink="/aboutddta" (click)="toggleMenu()">About DDTA</li>
+        <li routerLink="/wsearch" (click)="toggleMenu()">Wsearch</li>
+        <li routerLink="/register" (click)="toggleMenu()">Register</li>
+         
+      </ul>
+    </nav>
+    <div class="🍑">
+      
+    
